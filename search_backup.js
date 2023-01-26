@@ -5,7 +5,7 @@ btnSearch.addEventListener("click", function () {
   const txt = searchTxt.value;
   const myFetch = fetch(`http://dapi.kakao.com/v2/search/image?query=${txt}`, {
     headers: {
-      Authorization: "KakaoAK 6b2baf1cf6415f955c240557b86a01e2",
+      Authorization: /** 너의 api key */,
     },
   });
   myFetch
