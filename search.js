@@ -57,7 +57,7 @@ function searchImg(searchTxt) {
     `http://dapi.kakao.com/v2/search/image?query=${searchTxt}`,
     {
       headers: {
-        Authorization: `KakaoAK 7ffc0a328fd9a61c6db3d246e376f92a`,
+        Authorization: ``,
       },
     }
   );
