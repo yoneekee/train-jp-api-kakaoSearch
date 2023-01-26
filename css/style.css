@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list li {
+  width: 19.99%;
+}
+
+.list li img {
+  width: 50%;
+}
